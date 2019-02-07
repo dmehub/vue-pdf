@@ -1,0 +1,30 @@
+{
+    "name": "@dmehub/vue-pdf",
+    "version": "1.0.0",
+    "description": "Vue PDF Viewer",
+    "main": "src/vuePdfNoSss.vue",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dmehub/vue-pdf.git"
+    },
+    "keywords": [
+        "pdf",
+        "viewer",
+        "vue",
+        "vue.js"
+    ],
+    "author": "Franck Freiburger",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dmehub/vue-pdf/issues"
+    },
+    "homepage": "https://github.com/dmehub/vue-pdf#readme",
+    "dependencies": {
+        "pdfjs-dist": "2.0.943",
+        "raw-loader": "^0.5.1",
+        "vue-resize-sensor": "^2.0.0"
+    }
+}
